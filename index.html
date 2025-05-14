@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bus Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bus Management System</h1>
+    <nav>
+      <a href="#select">Select Bus</a>
+      <a href="#details">Details</a>
+    </nav>
+  </header>
+
+  <section id="select" class="content-section">
+    <h2>Choose Your Route and Time</h2>
+    <form>
+      <label for="routeSelect">Route:</label>
+      <select id="routeSelect">
+        <option value="main">Mangalore ↔ Kundapura</option>
+        <option value="secondary">Padubidri → Karkala</option>
+      </select>
+
+      <label for="startSelect">Start Stop:</label>
+      <select id="startSelect"></select>
+
+      <label for="endSelect">End Stop:</label>
+      <select id="endSelect"></select>
+
+      <label for="timeSelect">Time:</label>
+      <select id="timeSelect"></select>
+    </form>
+  </section>
+
+  <section id="details" class="content-section">
+    <h2>Selection Details</h2>
+    <p id="selectionOutput">Please make your selections above.</p>
+    <div id="busDisplay"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Karnataka Express Bus System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

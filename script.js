@@ -14,6 +14,7 @@ const busNames = [
 
 const buses = [
   { id: 'EXP1001', route: 'main', time: '07:00' },
+  
   { id: 'EXP1002', route: 'main', time: '09:00' },
   { id: 'EXP2001', route: 'secondary', time: '08:00' },
   { id: 'EXP2002', route: 'secondary', time: '10:00' }
